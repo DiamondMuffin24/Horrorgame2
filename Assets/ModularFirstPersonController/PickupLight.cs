@@ -20,10 +20,12 @@ public class PickupLight : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.B))
             {
                 this.gameObject.SetActive(false);
+                Debug.Log("Light deactivated");
                 FlashLightOnPlayer.SetActive(true);
+                Debug.Log("FlashLight has been picked up");
             }
         }
     }

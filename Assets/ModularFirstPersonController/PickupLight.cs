@@ -18,6 +18,10 @@ public class PickupLight : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+
+        Debug.Log("Trigger");
+
+
         if(other.gameObject.tag == "Player")
         {
             if (Input.GetKey(KeyCode.B))

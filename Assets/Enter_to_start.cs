@@ -9,6 +9,7 @@ public class Enter_to_start : MonoBehaviour
 
     public string firstlevel;
     public string Settings;
+    public string Menuz;
     public void StartGame()
     {
         SceneManager.LoadScene(firstlevel);
@@ -23,5 +24,10 @@ public class Enter_to_start : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(Menuz);
     }
 }

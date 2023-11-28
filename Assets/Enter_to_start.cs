@@ -8,6 +8,7 @@ public class Enter_to_start : MonoBehaviour
     // Start is called before the first frame update
 
     public string firstlevel;
+    public string Settings;
     public void StartGame()
     {
         SceneManager.LoadScene(firstlevel);
@@ -16,7 +17,7 @@ public class Enter_to_start : MonoBehaviour
     // Update is called once per frame
     public void options()
     {
-        
+        SceneManager.LoadScene(Settings);
     }
 
     public void QuitGame()

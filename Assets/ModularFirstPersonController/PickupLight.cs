@@ -24,7 +24,7 @@ public class PickupLight : MonoBehaviour
 
         if(other.gameObject.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.B))
+            if (Input.GetKey(KeyCode.E))
             {
                 this.gameObject.SetActive(false);
                 Debug.Log("Light deactivated");

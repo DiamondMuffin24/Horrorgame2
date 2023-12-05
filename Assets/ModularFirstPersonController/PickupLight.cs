@@ -31,6 +31,7 @@ public class PickupLight : MonoBehaviour
                 FlashLightOnPlayer.SetActive(true);
                 Debug.Log("FlashLight has been picked up");
             }
+       
         }
     }
 
